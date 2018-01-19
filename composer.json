@@ -1,0 +1,21 @@
+{
+    "name": "lspeak/currencyconverter",
+    "description": "Türkiye Cumhuriyeti Merkez Bankası Kur ve Çeviri",
+    "keywords": ["exchange", "e-devlet", "banka" , "kur ceviri" , "currency converter", "usd to tl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TOLGA KARABULUT",
+            "email": "tolga@tolgakarabulut.com.tr"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"autoload": {
+        "psr-4": {
+            "lspeak\\currencyconverter\\": "src/"
+        }
+    }
+}
